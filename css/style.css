@@ -1,12 +1,16 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-arial/css/bpg-arial.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-arial-caps/css/bpg-arial-caps.min.css");
+
+@font-face {
+	font-family: 'BPG LE Studio 04 Caps';
+	src: url('../fonts/bpg-le-studio-04-caps-webfont.woff2');
+
+}
 body {
-	background-color: rgb(0, 0, 88);
+	font-family: "BPG Arial", sans-serif;
 }
 
-<div class="aa">
-
-</div>
-
-.aa {
-nav-down: auto;
-
+h1,h2, h3,h4,h5,h6 {
+	font-family: "BPG Arial Caps", sans-serif;
 }
+
